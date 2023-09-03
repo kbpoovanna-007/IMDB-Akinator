@@ -1,0 +1,167 @@
+body
+{
+  font-family: cursive;
+}
+
+#NavbarTitle{
+  margin-left: 30px;
+  margin-right:800px;
+  font-size: 2em;
+}
+
+.navbar
+{
+  position: fixed;
+  font-size: 1.5em;
+}
+
+.logo
+{
+  color:blue;
+  padding-left: 50%;
+  padding-top:20%;
+  font-size: 3.5rem;
+font-weight: bold;
+  color:white;
+}
+.nav-item
+{
+  color: black;
+  margin-left:5px;
+  margin-right:60px;
+}
+
+.nav
+{
+  background-color: black;
+}
+
+#welcome
+{
+  padding:15% 2% 7% 0%;
+  background-color: #FED049;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+#hello
+{
+  padding: 0% 5% 10% 3%;
+}
+
+#helloTitle
+{
+  padding:0% 15%;
+  text-align:left;
+  color: #000;
+  font-size:3.5rem;
+}
+
+#logo
+{
+  font-size:1.2rem;
+}
+
+#button
+{
+  font-size: 1.2rem;
+  padding:2% 1.5%;
+  margin-top:4%;
+  margin-left:15%;
+  color: #FFF;
+
+}
+
+#poster
+{
+  height:15rem;
+  width:10rem;
+}
+
+
+#description
+{
+  padding:7% 2%;
+}
+
+#descript
+{
+  height: 20rem;
+  width:26rem;
+}
+
+#descriptPara
+{
+  text-align: center;
+  padding:5rem;
+  font-family: "Montserrat"
+}
+
+
+#creators
+{
+    padding:7% 2%;
+    background-color: #FED049;
+}
+
+#creatorPic
+{
+  border-radius: 50%;
+  height:15rem;
+  width:13rem;
+  margin-left:7em;
+}
+
+#creatorID
+{
+  margin:1.5rem 5rem;
+  text-align: center;
+
+}
+
+.footer
+{
+
+  background-color: #000;
+  color: #FFF;
+  padding:1% 0% 1% 40%;
+
+}
+
+.akit
+{
+  text-align: center;
+  font-family:monospace;
+  font-size: 2.5em;
+}
+.result
+{
+  margin-top:5%;
+  margin-left:30%
+}
+
+
+.akinator
+{
+
+  height: 100vh;
+  width:100%;
+  background: linear-gradient(180deg,#fff,#3AB4F2,#f48e21,#23d5ab,#fff,#f48e21,#3AB4F2);
+  background-size:600% 700%;
+  animation: color 30s ease-in-out infinite;
+  margin:0% 0%;
+
+}
+
+@keyframes color{
+  0%{
+    background-position: 9 50%;
+  }
+  50%{
+    background-position: : 100%  50%;
+  }
+
+  100%{
+    background-position:0 50%;}
+}
+}
